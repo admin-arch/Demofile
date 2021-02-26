@@ -91,6 +91,9 @@
 3. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
 
 
+   ![15](https://user-images.githubusercontent.com/79540238/109285971-b800bf80-7847-11eb-9d4a-10296fd1eb83.PNG)
+
+
 
 
   
