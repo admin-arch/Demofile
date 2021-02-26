@@ -77,6 +77,9 @@
 10. Save the Project
 11. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
 
+
+   ![12](https://user-images.githubusercontent.com/79540238/109285964-b636fc00-7847-11eb-8f32-bdb30fa51b58.PNG)
+
 ## Steps to Run Jenkins on Tomcat Server
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
 2. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
