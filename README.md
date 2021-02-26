@@ -29,7 +29,11 @@
 
 
      
+     ![4](https://user-images.githubusercontent.com/79540238/109284788-3f4d3380-7846-11eb-8f9c-632833cbe2da.PNG)
   7. git commit -m "First Commit" (to add file from staging area to local repo)
+
+
+     
   
 ## Connect it to Github
 1. Go to Github
