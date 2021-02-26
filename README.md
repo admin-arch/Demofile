@@ -32,6 +32,7 @@
 5. Go to build to give compile instruction (command->java FirstProgram.java->add)
 6. Save the Project
 7. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
+8. 
 
 # Steps to Run Jenkins on Tomcat Server
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
