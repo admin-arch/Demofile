@@ -82,8 +82,11 @@
 
 ## Steps to Run Jenkins on Tomcat Server
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
-2. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
-3. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
+
+
+   ![13](https://user-images.githubusercontent.com/79540238/109285967-b6cf9280-7847-11eb-924c-2af4c10612c0.PNG)
+3. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
+4. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
 
 
 
