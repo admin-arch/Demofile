@@ -7,6 +7,10 @@
 
 # Workflow
 1. Open Git Bash
+
+
+
+
    ![1](https://user-images.githubusercontent.com/79540238/109284224-a3bbc300-7845-11eb-803d-17ef7da0b802.PNG)
 
 2. Navigate to directory-> mkdir->folder name
