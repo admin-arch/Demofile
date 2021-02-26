@@ -23,9 +23,13 @@
 
 
 
-     
+     ![3](https://user-images.githubusercontent.com/79540238/109284232-a5858680-7845-11eb-8918-4fca5f697ea9.PNG)
   5. git status (to check the status of the file whether it is commited)
-  6. git commit -m "First Commit" (to add file from staging area to local repo)
+
+
+
+     
+  7. git commit -m "First Commit" (to add file from staging area to local repo)
   
 ## Connect it to Github
 1. Go to Github
