@@ -19,22 +19,21 @@
 
 
      ![2](https://user-images.githubusercontent.com/79540238/109284230-a4ecf000-7845-11eb-802a-449ca5094142.png)
-  3. git add "FirstProgram.java"  (to add all the relevant files)
+  2. git add "FirstProgram.java"  (to add all the relevant files)
 
 
 
      ![3](https://user-images.githubusercontent.com/79540238/109284232-a5858680-7845-11eb-8918-4fca5f697ea9.PNG)
-  5. git status (to check the status of the file whether it is commited)
+  3. git status (to check the status of the file whether it is commited)
 
 
 
      
      ![4](https://user-images.githubusercontent.com/79540238/109284788-3f4d3380-7846-11eb-8f9c-632833cbe2da.PNG)
-  7. git commit -m "First Commit" (to add file from staging area to local repo)
+  4. git commit -m "First Commit" (to add file from staging area to local repo)
 
 
-     
-     ![5](https://user-images.githubusercontent.com/79540238/109284789-407e6080-7846-11eb-86c3-d997ee88ca5c.PNG)
+      ![5](https://user-images.githubusercontent.com/79540238/109284789-407e6080-7846-11eb-86c3-d997ee88ca5c.PNG)
   
 ## Connect it to Github
 1. Go to Github
@@ -44,38 +43,38 @@
 
 
    ![6](https://user-images.githubusercontent.com/79540238/109284790-4116f700-7846-11eb-930c-6a02a78c7f42.PNG)
-5. Go to Git
+4. Go to Git
   1. git remote add origin "remote repo URL"
 
 
 
      ![7](https://user-images.githubusercontent.com/79540238/109284792-4116f700-7846-11eb-8834-38d99fd46ba9.PNG)
-  3. git push "remote repo URL" (Push FirstProgram.java from local repo to remote repo)
-  4. git pull "remote repo URL" (Pull files from remote repo to local repo)
-  5. git checkout -b "branchname" (creates new branch in Github)
+  2. git push "remote repo URL" (Push FirstProgram.java from local repo to remote repo)
+  3. git pull "remote repo URL" (Pull files from remote repo to local repo)
+  4. git checkout -b "branchname" (creates new branch in Github)
 
 ## Open Jenkins
 1. Add github plugins (Go to Manage Jenkins->Manage Plugins->Available->Github Plugin->Submit)
 
 
    ![8](https://user-images.githubusercontent.com/79540238/109284795-41af8d80-7846-11eb-93f7-827a0c217403.PNG)
-3. Create New item (Go to New item->item name (FirstProgram.java) ->type of project (freestyle)->add)
+2. Create New item (Go to New item->item name (FirstProgram.java) ->type of project (freestyle)->add)
 
 
 
    ![9](https://user-images.githubusercontent.com/79540238/109284797-42482400-7846-11eb-9da9-85f9fdeffb99.PNG)
-5. Go to (Source code mamagement->git)
-6. Paste repo URL from Github containing FirstProgram.java (keep master as default branch)
+3. Go to (Source code mamagement->git)
+4. Paste repo URL from Github containing FirstProgram.java (keep master as default branch)
 
 
    ![10](https://user-images.githubusercontent.com/79540238/109284799-42482400-7846-11eb-9e10-bc52a600e92d.PNG)
 
-8. Go to build to give compile instruction (command->java FirstProgram.java->add)
+5. Go to build to give compile instruction (command->java FirstProgram.java->add)
 
 
     ![11](https://user-images.githubusercontent.com/79540238/109285960-b59e6580-7847-11eb-93ad-cb2577a641f2.PNG)
-10. Save the Project
-11. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
+6. Save the Project
+7. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
 
 
    ![12](https://user-images.githubusercontent.com/79540238/109285964-b636fc00-7847-11eb-8f32-bdb30fa51b58.PNG)
@@ -85,11 +84,11 @@
 
 
    ![13](https://user-images.githubusercontent.com/79540238/109285967-b6cf9280-7847-11eb-924c-2af4c10612c0.PNG)
-3. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
+2. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
 
 
    ![14](https://user-images.githubusercontent.com/79540238/109285970-b7682900-7847-11eb-962c-91f90b4c1841.PNG)
-5. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
+3. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
 
 
 
