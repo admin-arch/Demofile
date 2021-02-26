@@ -46,9 +46,13 @@
    ![6](https://user-images.githubusercontent.com/79540238/109284790-4116f700-7846-11eb-930c-6a02a78c7f42.PNG)
 5. Go to Git
   1. git remote add origin "remote repo URL"
-  2. git push "remote repo URL" (Push FirstProgram.java from local repo to remote repo)
-  3. git pull "remote repo URL" (Pull files from remote repo to local repo)
-  4. git checkout -b "branchname" (creates new branch in Github)
+
+
+
+     ![7](https://user-images.githubusercontent.com/79540238/109284792-4116f700-7846-11eb-8834-38d99fd46ba9.PNG)
+  3. git push "remote repo URL" (Push FirstProgram.java from local repo to remote repo)
+  4. git pull "remote repo URL" (Pull files from remote repo to local repo)
+  5. git checkout -b "branchname" (creates new branch in Github)
 
 ## Open Jenkins
 1. Add github plugins (Go to Manage Jenkins->Manage Plugins->Available->Github Plugin->Submit)
