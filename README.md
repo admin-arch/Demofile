@@ -56,12 +56,15 @@
 
 ## Open Jenkins
 1. Add github plugins (Go to Manage Jenkins->Manage Plugins->Available->Github Plugin->Submit)
-2. Create New item (Go to New item->item name (FirstProgram.java) ->type of project (freestyle)->add)
-3. Go to (Source code mamagement->git)
-4. Paste repo URL from Github containing FirstProgram.java (keep master as default branch)
-5. Go to build to give compile instruction (command->java FirstProgram.java->add)
-6. Save the Project
-7. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
+
+
+   ![8](https://user-images.githubusercontent.com/79540238/109284795-41af8d80-7846-11eb-93f7-827a0c217403.PNG)
+3. Create New item (Go to New item->item name (FirstProgram.java) ->type of project (freestyle)->add)
+4. Go to (Source code mamagement->git)
+5. Paste repo URL from Github containing FirstProgram.java (keep master as default branch)
+6. Go to build to give compile instruction (command->java FirstProgram.java->add)
+7. Save the Project
+8. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
 
 ## Steps to Run Jenkins on Tomcat Server
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
