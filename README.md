@@ -86,7 +86,10 @@
 
    ![13](https://user-images.githubusercontent.com/79540238/109285967-b6cf9280-7847-11eb-924c-2af4c10612c0.PNG)
 3. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
-4. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
+
+
+   ![14](https://user-images.githubusercontent.com/79540238/109285970-b7682900-7847-11eb-962c-91f90b4c1841.PNG)
+5. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
 
 
 
