@@ -7,6 +7,8 @@
 
 # Workflow
 1. Open Git Bash
+   
+
 2. Navigate to directory-> mkdir->folder name
   ### Type the following commands:
   1. git init (to initialise)
