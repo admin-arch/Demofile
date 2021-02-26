@@ -16,9 +16,16 @@
 2. Navigate to directory-> mkdir->folder name
   ### Type the following commands:
   1. git init (to initialise)
-  2. git add "FirstProgram.java"  (to add all the relevant files)
-  3. git status (to check the status of the file whether it is commited)
-  4. git commit -m "First Commit" (to add file from staging area to local repo)
+
+
+     ![2](https://user-images.githubusercontent.com/79540238/109284230-a4ecf000-7845-11eb-802a-449ca5094142.png)
+  3. git add "FirstProgram.java"  (to add all the relevant files)
+
+
+
+     
+  5. git status (to check the status of the file whether it is commited)
+  6. git commit -m "First Commit" (to add file from staging area to local repo)
   
 ## Connect it to Github
 1. Go to Github
