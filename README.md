@@ -14,7 +14,7 @@
   3. git status (to check the status of the file whether it is commited)
   4. git commit -m "First Commit" (to add file from staging area to local repo)
   
-# Connect it to Github
+## Connect it to Github
 1. Go to Github
 2. log in to the account
 3. click the new repository button at the top right and create new remote repo(with Public and add Readme file), copy the remote repo URL
@@ -24,7 +24,7 @@
   3. git pull "remote repo URL" (Pull files from remote repo to local repo)
   4. git checkout -b "branchname" (creates new branch in Github)
 
-# Open Jenkins
+## Open Jenkins
 1. Add github plugins (Go to Manage Jenkins->Manage Plugins->Available->Github Plugin->Submit)
 2. Create New item (Go to New item->item name (FirstProgram.java) ->type of project (freestyle)->add)
 3. Go to (Source code mamagement->git)
@@ -33,12 +33,7 @@
 6. Save the Project
 7. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
 
-
-
-
-![Screenshot (1)](https://user-images.githubusercontent.com/79540238/109274999-26d71c00-783a-11eb-9b8e-f754c76a0861.png)
-
-# Steps to Run Jenkins on Tomcat Server
+## Steps to Run Jenkins on Tomcat Server
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
 2. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
 3. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
