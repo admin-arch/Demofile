@@ -7,7 +7,7 @@
 
 # Workflow
 1. Open Git Bash
-2. Navigate to directory-> mkdir<folder name>
+2. Navigate to directory-> mkdir->folder name
   ### Type the following commands:
   1. git init (to initialise)
   2. git add "FirstProgram.java"  (to add all the relevant files)
@@ -37,6 +37,7 @@
 1. Open Tomcat folder extract all the files goto bin->startup (run startup windows bat file to launch the tomcat server)
 2. Copy the jenkins.war file to the subfolder webapps in the Tomcat installation it will autogenerate a jenkins folder
 3. Go to the url "http://localhost:8080/jenkins" to launch the initial jenkins page on the Tomcat server
+
 
 
 
