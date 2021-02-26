@@ -73,7 +73,7 @@
 8. Go to build to give compile instruction (command->java FirstProgram.java->add)
 
 
-    ![11](https://user-images.githubus
+    ![11](https://user-images.githubusercontent.com/79540238/109285960-b59e6580-7847-11eb-93ad-cb2577a641f2.PNG)
 10. Save the Project
 11. Click on build, if program builds successfully(SUCCESS) else(FAILURE)
 
